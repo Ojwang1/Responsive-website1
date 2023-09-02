@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Website 1</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2? 
+    family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet>
+    <link rel="stylesheet" href="https://stackpath.boostrapcdn.com/font-awosome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <!-- You need to add image of cap in images () -->
+            <a href="index.html"><img src="images/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Course</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+
+            </div>
+            <i class="fa fa-bars" onclick="showMenu"></i>
+        </nav>
+        <div class="text-box">
+            <h1>World Class Nicholas University</h1>
+            <p>Making website of Education Courses</p>
+            <a href="" class="hero-btn">Visit us to know More</a>
+
+        </div>
+
+    </section>
+
+    <!-- Courses -->
+    <section class="course">
+        <h1>Courses We  Do Offer</h1>
+        <p>This are courses we do offer every year</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>This is what we do for the students we have</p>
+
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>This is what we do for the students we have</p>
+
+            </div>
+            <div class="course-col">
+                <h3>Post Graduation</h3>
+                <p>This is what we do for the students we have</p>
+
+                </div>
+            
+</div>
+
+    </section>
+     <!-- Main Campus -->
+
+    <section class="campus">
+        <h1>This is Our Global Campus</h1>
+        <p>Come and be global leader in our campus</p>
+
+        <div class="row">
+            <div class="campus-col">
+                <img src="imgeh.jpg" alt="">
+                <div class="layer">
+                    <h3>KISUMU</h3>
+
+                </div>
+            
+            </div>
+            <div class="campus-col">
+                <img src="imgeh.jpg" alt="">
+                <div class="layer">
+                    <h3>HOMA BAY</h3>
+
+                </div>
+            
+            </div>
+            <div class="campus-col">
+                <img src="imgeh.jpg" alt="">
+                <div class="layer">
+                    <h3>MIGORI</h3>
+
+                </div>
+            
+            </div>
+
+        </div>
+
+        
+
+    </section>
+
+    <!-- Facilities -->
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>This is our facilities around our school</p>
+
+        <div class="row">
+            <div class="facilities-col">
+                <img src="imagel.jpg" alt="">
+                <h3>World Class Library</h3>
+                <p>Come and get knowledge here</p>
+
+            </div>
+            <div class="facilities-col">
+                <img src="imagel.jpg" alt="">
+                <h3>Largest Play Ground</h3>
+                <p>Come and play games here</p>
+
+            </div>
+            <div class="facilities-col">
+                <img src="imagel.jpg" alt="">
+                <h3>Get your Healthy Food</h3>
+                <p>Come and get knowledge here</p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- testimonials -->
+    <section class="testimonials>
+        <h1>What Do Our Students Says</h1>
+        <p>Most of them say they love our School </p>
+
+        <div class="row">
+            <div class="testimonial-col">
+                <img src="imageN.JPG" alt="">
+                <div>
+                    <p>This is users name</p>
+                    <h3>Nicholas Ojwang</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+
+                </div>
+
+            </div>
+            <div class="testimonial-col">
+                <img src="imageN.JPG" alt="">
+                <div>
+                    <p>This is users name</p>
+                    <h3>Ojwang Omondi</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+
+                </div>
+
+            </div>
+           </div>
+        
+
+
+    </section>
+    <!-- Call To Action -->
+    <section class="cta">
+        <h1>Enroll for our various online courses  <br> anywhere in Kenya</h1>
+        <a href="" class="hero-btn">CONTACT US</a>
+
+    </section>
+
+    <!-- Footer -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Know more about us here</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+
+        </div>
+        <p>Made with Nicholas Ojwang <i class="fa fa-heart-o"></i>Get Knowledge here</p>
+
+    </section>
+
+
+
+
+
+
+
+
+
+    <!-- JavaScript for Toggle Menu -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+    
+</body>
+</html>
